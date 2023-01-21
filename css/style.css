@@ -193,10 +193,43 @@ a {
     color: var(--white);
     font-size: 14px;
 }
+
+.social_icon i {
+    transition: .4s;
+}
+
+.social_icon a:hover i {
+    transform: scale(1.1);
+    color: #90e0ef;
+}
+
+.navbar-nav li a {
+    color: var(--white);
+    position: relative;
+}
+
+.navbar-nav li a::before {
+    content: '';
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    bottom: 5px;
+    left: 6px;
+    background-color: #F3F7FF;
+    transform: scale(0);
+    transition: all linear .4s;
+}
+
+.navbar-nav li:hover a::before {
+    transform: scale(1);
+    transform-origin: center;
+} 
+
+
 /* ================================= Slider Css ============================== */
 
 .carousel-item.slide1 {
-    height: 85vh;
+    height: 100vh;
     background: url(../images/asset\ 35.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -204,7 +237,7 @@ a {
 }
 
 .carousel-item.slide2 {
-    height: 85vh;
+    height: 100vh;
     background: url(../images/asset\ 36.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -305,12 +338,12 @@ a {
 
 /* ================================= Services Css ============================== */
 
-/* .services {
+.services {
     background: url(../images/asset\ 37.jpeg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-} */
+}
 
 .service_item {
     padding: 50px 36px;
