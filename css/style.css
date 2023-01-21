@@ -94,7 +94,8 @@ body{
 
 ul,ol {
     list-style: none;
-    margin-bottom: 0!important;
+    margin: 0!important;
+    padding: 0!important;
 }
 
 a {
@@ -127,24 +128,56 @@ a {
     --white: #fff;
     --black: #000;
     --skyblue: #55A3F2;
+    --icolor: #106eea;
 }
 
 /* ================================= Header Css ============================== */
 
-.social_info i{
-    color: var(--skyblue);
-    font-size: 18px;
-    margin-right: 10px;
+@media screen and (min-width:400px) {
+    .logo img {
+        width: 40%;
+    }
 }
 
-.social_info span{
+@media screen and (min-width:768px) {
+    .logo img {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .logo img {
+        width: 100%;
+    }
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.contact_info {
+    font-size: 14px;
+}
+
+.contact_part {
+    border-right: 1px solid #eee;
+}
+
+.no-border {
+    border: none!important;
+}
+
+.contact_part i {
+    font-size: 26px;
+    color: var(--icolor);
+    line-height: 40px;
+}
+
+.contact_detail span {
+    font-size: 15px;
     font-weight: 600;
-}
-
-.social_info p
-{
-    transform: translateX(34px);
-    margin-bottom: 0!important;
+    line-height: 1;
+    display: block;
 }
 
 /* ================================= Navigation Css =========================== */
@@ -272,12 +305,12 @@ a {
 
 /* ================================= Services Css ============================== */
 
-.services {
+/* .services {
     background: url(../images/asset\ 37.jpeg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-}
+} */
 
 .service_item {
     padding: 50px 36px;
