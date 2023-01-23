@@ -4,79 +4,120 @@
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/livvic-v13-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-300.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-300.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-300.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
-  /* livvic-regular - latin */
-  @font-face {
+        url('../fonts/livvic-v13-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-300.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
+
+/* livvic-regular - latin */
+@font-face {
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/livvic-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-regular.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
-  /* livvic-500 - latin */
-  @font-face {
+        url('../fonts/livvic-v13-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-regular.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
+
+/* livvic-500 - latin */
+@font-face {
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/livvic-v13-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-500.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-500.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
-  /* livvic-600 - latin */
-  @font-face {
+        url('../fonts/livvic-v13-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-500.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
+
+/* livvic-600 - latin */
+@font-face {
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/livvic-v13-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-600.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-600.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-600.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
-  /* livvic-700 - latin */
-  @font-face {
+        url('../fonts/livvic-v13-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-600.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
+
+/* livvic-700 - latin */
+@font-face {
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/livvic-v13-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-700.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-700.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
-  /* livvic-900 - latin */
-  @font-face {
+        url('../fonts/livvic-v13-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-700.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
+
+/* livvic-900 - latin */
+@font-face {
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/livvic-v13-latin-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/livvic-v13-latin-900.eot');
+    /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/livvic-v13-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/livvic-v13-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/livvic-v13-latin-900.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/livvic-v13-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/livvic-v13-latin-900.svg#Livvic') format('svg'); /* Legacy iOS */
-  }
+        url('../fonts/livvic-v13-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/livvic-v13-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/livvic-v13-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/livvic-v13-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/livvic-v13-latin-900.svg#Livvic') format('svg');
+    /* Legacy iOS */
+}
 
 /* ================================= Default Css ============================== */
 
@@ -86,23 +127,24 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Livvic',sans-serif;
+body {
+    font-family: 'Livvic', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-ul,ol {
+ul,
+ol {
     list-style: none;
-    margin: 0!important;
-    padding: 0!important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 a {
     text-decoration: none;
 }
 
-.ptb-100{
+.ptb-100 {
     padding: 100px 0;
 }
 
@@ -120,7 +162,7 @@ a {
 }
 
 .pt-relative {
-    position: relative!important;
+    position: relative !important;
 }
 
 :root {
@@ -133,9 +175,9 @@ a {
 
 /* ================================= Header Css ============================== */
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:0px) {
     .logo img {
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -152,19 +194,21 @@ a {
 }
 
 .text-right {
-    text-align: right!important;
+    text-align: right !important;
 }
 
 .contact_info {
     font-size: 14px;
 }
 
-.contact_part {
-    border-right: 1px solid #eee;
+@media screen and (min-width:768px) {
+    .contact_part {
+        border-right: 1px solid #eee;
+    }
 }
 
 .no-border {
-    border: none!important;
+    border: none !important;
 }
 
 .contact_part i {
@@ -182,14 +226,14 @@ a {
 
 /* ================================= Navigation Css =========================== */
 
-.navbar{
+.navbar {
     padding: 12px 0;
     background-image: linear-gradient(90deg, #03228f 10%, #0e73e4 100%);
     position: sticky;
     top: 0;
 }
 
-.social_icon a{
+.social_icon a {
     color: var(--white);
     font-size: 14px;
 }
@@ -208,22 +252,30 @@ a {
     position: relative;
 }
 
-.navbar-nav li a::before {
-    content: '';
-    width: 80%;
-    height: 2px;
-    position: absolute;
-    bottom: 5px;
-    left: 6px;
-    background-color: #F3F7FF;
-    transform: scale(0);
-    transition: all linear .4s;
+@media screen and (min-width:0px) and (max-width:992px){
+     .navbar-nav li:hover a{
+        opacity: 0.8;
+     }
 }
 
-.navbar-nav li:hover a::before {
-    transform: scale(1);
-    transform-origin: center;
-} 
+@media screen and (min-width:992px) {
+    .navbar-nav li a::before {
+        content: '';
+        width: 80%;
+        height: 2px;
+        position: absolute;
+        bottom: 5px;
+        left: 6px;
+        background-color: #F3F7FF;
+        transform: scale(0);
+        transition: all linear .4s;
+    }
+
+    .navbar-nav li:hover a::before {
+        transform: scale(1);
+        transform-origin: center;
+    }
+}
 
 
 /* ================================= Slider Css ============================== */
@@ -254,23 +306,22 @@ a {
     left: 5%;
 }
 
-.carousel-caption .img_box
-{
+.carousel-caption .img_box {
     width: 80px;
 }
-.carousel-caption h1
-{
+
+.carousel-caption h1 {
     font-size: 78px;
     font-weight: 900;
     line-height: 80px;
 }
-.carousel-caption p
-{
+
+.carousel-caption p {
     font-size: 18px;
     padding-right: 380px;
 }
-.carousel-caption .btn
-{
+
+.carousel-caption .btn {
     background-image: linear-gradient(90deg, #03228f 10%, #0e73e4 100%);
     border: none;
     font-size: 18px;
@@ -412,10 +463,66 @@ a {
     margin-bottom: 45px;
 }
 
+@media screen and (min-width:0px) and (max-width:576px) {
+    .features_list {
+        font-size: 16px;
+        font-weight: 500;
+    }
 
+    .features_list li i {
+        font-size: 18px;
+    }
 
+    .features_right h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
 
+    .features_right h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
 
+    .features_right p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+}
 
- 
+@media screen and (min-width:576px) and (max-width:768px) {
+    .features_list {
+        font-size: 17px;
+        font-weight: 500;
+    }
 
+    .features_list li i {
+        font-size: 22px;
+    }
+
+    .features_right h2 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .features_right h1 {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .features_right p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+}
