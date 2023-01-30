@@ -175,6 +175,10 @@ a {
 
 /* ================================= Header Css ============================== */
 
+.top_header {
+    display: none;
+}
+
 @media screen and (min-width:0px) {
     .logo img {
         width: 50%;
@@ -184,6 +188,9 @@ a {
 @media screen and (min-width:768px) {
     .logo img {
         width: 25%;
+    }
+    .top_header {
+        display: block;
     }
 }
 
@@ -252,12 +259,6 @@ a {
     position: relative;
 }
 
-@media screen and (min-width:0px) and (max-width:992px){
-     .navbar-nav li:hover a{
-        opacity: 0.8;
-     }
-}
-
 @media screen and (min-width:992px) {
     .navbar-nav li a::before {
         content: '';
@@ -276,7 +277,6 @@ a {
         transform-origin: center;
     }
 }
-
 
 /* ================================= Slider Css ============================== */
 
@@ -401,7 +401,6 @@ a {
     background-color: #F3F7FF;
     border-radius: 10px;
     box-shadow: unset;
-    margin: 0px -5px 0px 0px;
 }
 
 .service_item:hover {
